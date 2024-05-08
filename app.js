@@ -17,9 +17,9 @@ app.listen(PORT, (error) =>{
 ); 
 
 // Require all controller files
-const blogPostController = require('./controllers/blogpostcontroller');
-const categoryController = require('./controllers/categorycontroller');
-const commentController = require('./controllers/commentcontroller');
+const blogpostcontroller = require('./controllers/blogpostcontroller');
+const categorycontroller = require('./controllers/categorycontroller');
+const commentcontroller = require('./controllers/commentcontroller');
 
 
 // Define routes for blog post controller
